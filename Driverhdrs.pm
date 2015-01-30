@@ -5,7 +5,7 @@
 package Driverhdrs;
 
 $LAB = "datalab";
-$SERVER_NAME = "adler.cs.utexas.edu";
+$SERVER_NAME = "none";
 $SERVER_PORT = 8081;
 $COURSE_NAME = "csapp";
 $AUTOGRADE_TIMEOUT = 0;
