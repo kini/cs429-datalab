@@ -17,10 +17,9 @@ bits.h      - Header file
 btest.c     - The main btest program
   btest.h   - Used to build btest
   decl.c    - Used to build btest
-  tests.c    - Used to build btest
+  tests.c   - Used to build btest
 dlc         - Rule checking compiler binary (data lab compiler)
 driver.pl   - Driver program that uses btest and dlc to autograde bits.c
-ishow.c     - Utility for examining integer representations
 
 ***********************************************************
 1. Modifying bits.c and checking it for compliance with dlc
