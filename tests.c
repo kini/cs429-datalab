@@ -22,8 +22,8 @@ int test_evenBits(void) {
 }
 int test_fitsBits(int x, int n)
 {
-  int TMin_n = -(1 << (n-1));
-  int TMax_n = (1 << (n-1)) - 1;
+  int TMin_n = -(1u << (n-1));
+  int TMax_n = (1u << (n-1)) - 1;
   return x >= TMin_n && x <= TMax_n;
 }
 int test_bitMask(int highbit, int lowbit)
