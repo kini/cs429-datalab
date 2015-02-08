@@ -7,6 +7,9 @@ CFLAGS = -std=gnu90 -O2 -Wall -m32
 btest: btest.c bits.c decl.c tests.c btest.h bits.h
 	$(CC) $(CFLAGS) -o btest bits.c btest.c decl.c tests.c
 
+testMultFiveEights: bits.c testMultFiveEights.c
+	$(CC) $(CFLAGS) -o testMultFiveEights bits.c testMultFiveEights.c
+
 # Forces a recompile. Used by the driver program.
 btestexplicit:
 	$(CC) $(CFLAGS) -o btest bits.c btest.c decl.c tests.c
